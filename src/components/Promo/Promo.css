@@ -58,6 +58,7 @@
 @media screen and (max-width: 720px) {
     .promo {
         padding-bottom: 150px;
+        padding-top: 20px;
     }
 
     .main-promo {

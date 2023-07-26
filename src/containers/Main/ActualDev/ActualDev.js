@@ -39,6 +39,11 @@ const ActualDev = () => (
   <div className="actual-dev">
     <div className="container actual-dev-con">
       <h2>Актуальный набор инструментов для развития вашего бизнеса</h2>
+      <p className="actual-dev-subtitle">
+        Выбрав компанию NEX, клиенты получают высококлассные ИТ решения и обучение, основанные на профессионализме,
+        инновациях и индивидуальном подходе. Мы готовы быть вашим надежным партнером в достижении ваших целей и успехов
+        в мире информационных технологий.
+      </p>
       <div className="actual-dev-cards">
         {cards.map(card => (
           <div key={card.title} className="actual-dev-card">
