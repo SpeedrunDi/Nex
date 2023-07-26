@@ -1,0 +1,68 @@
+.employees-con {
+    margin-top: 90px !important;
+}
+
+.employees-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-card {
+    position: relative;
+    width: 30%;
+    min-width: 300px;
+    display: flex;
+    gap: 24px;
+    padding: 40px 35px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background: #FFF;
+    box-shadow: 0 5px 0 0 #191A23;
+}
+
+.employee-card-img {
+    margin-bottom: 28px;
+}
+
+.employee-card-img img {
+    width: 100%;
+}
+
+.employee-card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 36px;
+}
+
+.employee-card-description p:first-child {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 6px;
+}
+
+.employee-card-description p:last-child {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lin-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
+
+.bottom-line {
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    bottom: 40px;
+    height: 1px;
+    background: #000;
+}

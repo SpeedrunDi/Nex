@@ -1,0 +1,125 @@
+.statics {
+    margin-top: 70px;
+    background: #fff;
+    padding: 44px 0;
+}
+
+.statics-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.statics-title {
+    max-width: 220px;
+    color: #4D4D4D;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 122%;
+    margin: 0 0 10px;
+}
+
+.statics-subtitle {
+    color: #18191F;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 139%;
+    margin: 0;
+}
+
+.statics-title span {
+    color: #4CAF4F;
+}
+
+.statics-middle, .statics-right {
+    display: flex;
+    width: 30%;
+    gap: 20px;
+}
+
+.statics-middle-in, .statics-right-in {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.statics-number {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 128%;
+    margin: 0;
+}
+
+.statics-description {
+    color: #717171;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 139%;
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .statics {
+        margin-top: 60px;
+        padding: 30px 0;
+    }
+
+    .statics-title {
+        max-width: 150px;
+        font-size: 18px;
+    }
+
+    .statics-subtitle {
+        font-size: 11px;
+    }
+
+    .statics-middle, .statics-right {
+        gap: 12px;
+        width: 36%;
+    }
+
+    .statics-number {
+        font-size: 16px;
+    }
+
+    .statics-description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .statics {
+        margin-top: 150px;
+    }
+
+    .statics-con {
+        flex-direction: column;
+    }
+
+    .statics-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .statics-subtitle {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .statics-middle, .statics-right {
+        width: 100%;
+        max-width: 260px;
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+    .statics-number {
+        font-size: 14px;
+    }
+
+    .statics-description {
+        font-size: 8px;
+    }
+}

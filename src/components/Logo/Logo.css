@@ -1,0 +1,8 @@
+.logo_link {
+    display: inline-block;
+    width: 70px;
+}
+
+.logo_link img {
+    width: 100%;
+}

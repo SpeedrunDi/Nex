@@ -1,0 +1,24 @@
+.nav_btn {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 24px;
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: 6px 20px 9px;
+}
+
+.nav_btn:hover {
+    text-decoration: underline;
+}
+
+.active {
+    border-radius: 3px;
+    background: #4CAF4F;
+}
+
+@media screen and (max-width: 960px) {
+    .nav_btn {
+        text-align: center;
+    }
+}
