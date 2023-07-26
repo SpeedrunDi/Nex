@@ -1,0 +1,75 @@
+.reviews {
+    background: #fff;
+    margin-top: 70px;
+    padding-top: 46px;
+    padding-bottom: 50px;
+}
+
+.reviews h3 {
+    color: #333;
+}
+
+.reviews_block {
+    border-radius: 45px;
+    background: #333;
+    padding: 60px 0 68px;
+}
+
+.reviews_block .swiper {
+    padding: 0 30px;
+}
+
+.reviews_block .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.reviews_block .swiper-pagination-bullet-active {
+    background: rgba(39, 174, 96, 1);
+}
+
+.review {
+    padding-bottom: 50px;
+}
+
+.review-comment {
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 240px;
+    padding: 30px 52px 50px;
+    background: url("../../../assets/Bubble.png") no-repeat 0 / 100%;
+}
+
+.review-comment p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.review-author {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #27AE60;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
+    .review-comment {
+        overflow: hidden;
+        max-width: 190px;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 526px;
+        background-image: url("../../../assets/Bubble-mobile.png");
+    }
+
+    .review-comment p {
+        font-size: 14px;
+    }
+
+    .review-author {
+        max-width: 220px;
+    }
+}

@@ -5,6 +5,7 @@ import ActualDev from './ActualDev/ActualDev'
 import OurCourses from '../../components/OurCourses/OurCourses'
 import OurClients from './OurClients/OurClients'
 import Employees from '../../components/Employees/Employees'
+import Reviews from './Reviews/Reviews'
 
 const Main = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Main = () => {
       <OurCourses projects />
       <OurClients />
       <Employees />
+      <Reviews />
     </>
   )
 }
