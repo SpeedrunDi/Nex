@@ -29,7 +29,7 @@ const News = () => (
     <div className="container news-con">
       <div className="news-cards">
         {news.map(post => (
-          <div className="post-card">
+          <div key={post.title} className="post-card">
             <img src={post.img} alt={post.title} />
             {/* <div className="post-card-description"> */}
             {/*  <p>{post.date}</p> */}

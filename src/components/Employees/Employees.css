@@ -11,7 +11,7 @@
 
 .employee-card {
     position: relative;
-    width: 30%;
+    width: 26%;
     min-width: 300px;
     display: flex;
     gap: 24px;
@@ -24,6 +24,9 @@
 
 .employee-card-img {
     margin-bottom: 28px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
 }
 
 .employee-card-img img {
@@ -33,7 +36,7 @@
 .employee-card-description {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     margin-bottom: 36px;
 }
 

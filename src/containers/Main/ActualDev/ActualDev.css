@@ -1,0 +1,136 @@
+.actual-dev {
+    padding: 110px 0 50px;
+    background: #FFFFFF url("../../../assets/actual-dev-bg.png") no-repeat 50% 0 / cover;
+}
+
+.actual-dev h2 {
+    max-width: 760px;
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+}
+
+.actual-dev-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    overflow-x: auto;
+}
+
+.actual-dev-cards::-webkit-scrollbar {
+    height: 7px;
+    background: #D9D9D9;
+    border-radius: 3px;
+}
+
+.actual-dev-cards::-webkit-scrollbar-track {
+    -webkit-border-radius: 3px;
+}
+
+.actual-dev-cards::-webkit-scrollbar-thumb {
+    background: #4CAF4F;
+    border-radius: 3px;
+}
+
+.actual-dev-card {
+    width: 30%;
+    min-width: 260px;
+    border-radius: 16px;
+    box-shadow: 0 12px 56px 0 rgba(6, 28, 61, 0.12);
+    padding: 32px;
+    border: 1px solid rgba(230, 232, 236, 0.50);
+    background: #fff;
+    transition: transform 0.4s ease;
+}
+
+.actual-dev-card:hover {
+    transform: scale(0.96);
+}
+
+.actual-dev-card:hover .actual-dev-card-svg {
+    background: #27AE60;
+}
+
+.actual-dev-card:hover .actual-dev-card-svg svg {
+    fill: #FFFFFF;
+}
+
+.actual-dev-card:hover .actual-dev-card-btn {
+    text-decoration: underline;
+}
+
+.actual-dev-card-svg {
+    width: max-content;
+    padding: 12px;
+    border-radius: 8px;
+    background: #F0F5FF;
+}
+
+.actual-dev-card-title {
+    color: #061C3D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 0;
+}
+
+.actual-dev-card-description {
+    margin-top: 10px;
+    color: #42526B;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.actual-dev-card-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #27AE60;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .actual-dev {
+        padding: 110px 0 50px;
+        background: #FFFFFF url("../../../assets/actual-dev-bg.png") no-repeat 50% 0;
+    }
+
+    .actual-dev h2 {
+        font-size: 30px;
+    }
+
+    .actual-dev-cards {
+        margin: 70px -20px 0;
+    }
+
+    .actual-dev-card {
+        padding: 24px;
+    }
+
+    .actual-dev-card-svg {
+        padding: 8px;
+    }
+
+    .actual-dev-card-title {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .actual-dev-card-description {
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    .actual-dev-card-btn {
+        font-size: 12px;
+    }
+}

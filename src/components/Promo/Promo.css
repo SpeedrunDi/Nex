@@ -1,6 +1,12 @@
+.promo {
+    background: #000;
+    margin-top: 61px;
+    padding-top: 54px;
+    padding-bottom: 70px;
+}
+
 .main-promo {
     display: flex;
-    margin-top: 126px !important;
     gap: 7%;
 }
 
@@ -50,6 +56,10 @@
 }
 
 @media screen and (max-width: 720px) {
+    .promo {
+        padding-bottom: 150px;
+    }
+
     .main-promo {
         flex-direction: column;
         gap: 40px;

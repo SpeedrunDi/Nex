@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="row">
         <div className="row-in">
           <h1>У вас остались вопросы?</h1>
-          <button className="btn">
+          <button type="button" className="btn">
             Свяжитесь с нами <i className="bi bi-arrow-right" style={{ color: '#fff' }} />
           </button>
         </div>
