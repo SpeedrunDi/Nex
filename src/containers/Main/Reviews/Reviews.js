@@ -46,7 +46,7 @@ const Reviews = () => (
           modules={[FreeMode, Pagination]}
         >
           {reviews?.map(item => (
-            <SwiperSlide key={item.comment}>
+            <SwiperSlide key={item.author}>
               <div className="review">
                 <div className="review-comment">
                   <p>{item.comment}</p>

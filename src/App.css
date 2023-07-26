@@ -29,3 +29,9 @@
     margin: 0;
     text-align: center;
 }
+
+@media screen and (max-width: 720px) {
+    .not_page_text {
+        font-size: 32px;
+    }
+}

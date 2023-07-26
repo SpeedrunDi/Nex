@@ -12,6 +12,7 @@
 }
 
 .menu {
+    z-index: 998;
     position: fixed;
     top: 60px;
     left: 0;
