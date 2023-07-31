@@ -45,6 +45,7 @@
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
+    line-height: 140%;
 }
 
 .review-author {
@@ -56,20 +57,29 @@
 }
 
 @media screen and (max-width: 720px) {
+    .reviews_block {
+        padding: 20px 0 28px;
+    }
+
+    .reviews_block .swiper {
+        padding: 0;
+    }
+
     .review-comment {
         overflow: hidden;
-        max-width: 190px;
-        padding-left: 40px;
-        padding-right: 40px;
-        height: 526px;
-        background-image: url("../../../assets/Bubble-mobile.png");
+        max-width: max-content;
+        padding: 20px 30px;
+        height: auto;
+        background: none;
     }
 
     .review-comment p {
-        font-size: 14px;
+        font-size: 16px;
+        margin: 0;
     }
 
     .review-author {
-        max-width: 220px;
+        padding: 0 8%;
+        text-align: right;
     }
 }

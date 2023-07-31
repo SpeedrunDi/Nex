@@ -29,7 +29,13 @@ const News = () => (
     <div className="container news-con">
       <div className="news-cards">
         {news.map(post => (
-          <div key={post.title} className="post-card">
+          <div
+            data-aos="flip-left"
+            data-aos-duration="700"
+            data-aos-anchor-placement="top-center"
+            key={post.title}
+            className="post-card"
+          >
             <img src={post.img} alt={post.title} />
             {/* <div className="post-card-description"> */}
             {/*  <p>{post.date}</p> */}

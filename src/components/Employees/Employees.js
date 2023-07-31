@@ -13,31 +13,37 @@ const employees = [
     name: 'Imran',
     avatar: Imran,
     post: 'CEO и основатель',
+    aos: 'fade-down-right',
   },
   {
     name: 'Bakai',
     avatar: Bakai,
     post: 'Директор',
+    aos: 'fade-down',
   },
   {
     name: 'Jamilia',
     avatar: Jamilia,
     post: 'Java Backend Developer',
+    aos: 'fade-down-left',
   },
   {
     name: 'Aziret',
     avatar: Aziret,
     post: 'Java Backend Developer',
+    aos: 'fade-up-right',
   },
   {
     name: 'Ajar',
     avatar: Ajar,
     post: 'Проектный менеджер',
+    aos: 'fade-up',
   },
   {
     name: 'Aman',
     avatar: Aman,
     post: 'Frontend Developer',
+    aos: 'fade-up-left',
   },
 ]
 
@@ -46,7 +52,7 @@ const Employees = () => (
     <h3 className="section-title">Наша команда</h3>
     <div className="employees-cards">
       {employees.map(employee => (
-        <div key={employee.name} className="employee-card">
+        <div data-aos-duration="600" data-aos={employee.aos} key={employee.name} className="employee-card">
           <div className="lin-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
               <circle cx="17" cy="17" r="17" fill="black" />

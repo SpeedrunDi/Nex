@@ -46,7 +46,7 @@ const ActualDev = () => (
       </p>
       <div className="actual-dev-cards">
         {cards.map(card => (
-          <div key={card.title} className="actual-dev-card">
+          <div data-aos="fade-up" key={card.title} className="actual-dev-card">
             <div className="actual-dev-card-svg" dangerouslySetInnerHTML={{ __html: card.icon }} />
             <div>
               <h5 className="actual-dev-card-title">{card.title}</h5>

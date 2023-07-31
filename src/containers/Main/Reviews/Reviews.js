@@ -47,7 +47,7 @@ const Reviews = () => (
         >
           {reviews?.map(item => (
             <SwiperSlide key={item.author}>
-              <div className="review">
+              <div className="review" data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
                 <div className="review-comment">
                   <p>{item.comment}</p>
                 </div>

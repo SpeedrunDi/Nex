@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import AOS from 'aos'
 import Layout from './components/UI/Layout/Layout'
 import Courses from './containers/Courses/Courses'
 import Main from './containers/Main/Main'
+import 'aos/dist/aos.css'
 import './App.css'
 
 function App() {
   const location = useLocation()
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
 
   return (
     <Layout>

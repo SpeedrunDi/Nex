@@ -21,7 +21,7 @@ const OurClients = () => (
     <h3 className="section-title">Наши клиенты</h3>
     <div className="companies">
       {companies.map(company => (
-        <div key={company.title} className="company">
+        <div data-aos="flip-up" key={company.title} className="company">
           <h5>{company.title}</h5>
         </div>
       ))}
