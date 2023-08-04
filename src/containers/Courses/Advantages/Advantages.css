@@ -1,5 +1,6 @@
 .advantages-con {
     margin-top: 50px !important;
+    padding-bottom: 120px !important;
 }
 
 .advantages-cards {
@@ -25,7 +26,7 @@
 
 .advantage-card-description {
     position: absolute;
-    bottom: -50px;
+    top: 160px;
     left: 50%;
     transform: translateX(-50%);
     width: 220px;
@@ -39,7 +40,7 @@
     max-width: 200px;
     color: #717171;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 140%;
     margin: 0 auto;
@@ -51,8 +52,8 @@
     justify-content: center;
     color: #4CAF4F;
     text-align: center;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 500;
     line-height: 140%;
 }
 
@@ -64,7 +65,7 @@
     .advantages-cards {
         flex-direction: column;
         align-items: center;
-        gap: 80px;
+        gap: 120px;
     }
 
     .advantage-card-description {

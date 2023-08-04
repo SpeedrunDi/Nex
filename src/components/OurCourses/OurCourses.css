@@ -1,5 +1,4 @@
 .our-courses {
-    overflow-x: auto;
     max-width: 800px !important;
     margin: 45px auto 0 !important;
 }
@@ -8,30 +7,32 @@
     margin-top: 0;
 }
 
-.our-courses::-webkit-scrollbar {
-    height: 7px;
-    background: #D9D9D9;
-    border-radius: 3px;
-}
-
-.our-courses::-webkit-scrollbar-track {
-    -webkit-border-radius: 3px;
-}
-
-.our-courses::-webkit-scrollbar-thumb {
-    background: #4CAF4F;
-    border-radius: 3px;
-}
-
 .courses {
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding-bottom: 12px;
 }
 
+.courses::-webkit-scrollbar {
+    height: 7px;
+    background: #D9D9D9;
+    border-radius: 3px;
+}
+
+.courses::-webkit-scrollbar-track {
+    -webkit-border-radius: 3px;
+}
+
+.courses::-webkit-scrollbar-thumb {
+    background: #4CAF4F;
+    border-radius: 3px;
+}
+
 .course-card {
+    min-width: 190px;
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0 1px 3px 0 rgba(171, 190, 209, 0.20);
@@ -70,14 +71,15 @@
 
 @media screen and (max-width: 720px) {
     .our-courses {
-        margin-top: 50px !important;
+        padding: 0 !important;
     }
 
     .courses {
-        width: 650px;
+        padding: 0 20px 12px;
     }
 
     .course-card {
+        min-width: 160px;
         padding: 12px 16px 20px 16px;
     }
 
