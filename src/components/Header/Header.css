@@ -17,7 +17,7 @@
     top: 60px;
     left: 0;
     right: 0;
-    background: rgba(76, 175, 79, 0.48);
+    background: rgba(43, 141, 171, 0.5);
     backdrop-filter: blur(25px);
     transform: translateY(-320px);
     transition: transform 0.6s ease-in-out;
@@ -36,8 +36,8 @@
 
 .burger div {
     height: 5px;
-    background-color: #4CAF4F;
-    filter: drop-shadow(-4px -4px 5px #117914) drop-shadow(4px 4px 6px #117914);
+    background-color: #4ec5ea;
+    filter: drop-shadow(-4px -4px 5px #237e9a) drop-shadow(4px 4px 6px #237e9a);
     border-radius: 2px;
     margin: 6px;
     transition: all 0.3s ease;

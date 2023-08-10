@@ -14,7 +14,7 @@
 
 .active {
     border-radius: 3px;
-    background: #4CAF4F;
+    background: #4ec5ea;
 }
 
 @media screen and (max-width: 960px) {

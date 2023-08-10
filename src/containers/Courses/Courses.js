@@ -13,7 +13,7 @@ const Courses = () => {
 
   return (
     <>
-      <Promo title="Войди в IT вместе с Nex-gen EXcellence" subtitle="Курсы IT в Бишкеке" />
+      <Promo title="Войди в IT вместе с Next-gen EXcellence" subtitle="Курсы IT в Бишкеке" />
       <Statics />
       <OurCourses />
       <Advantages />
